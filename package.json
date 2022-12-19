@@ -1,0 +1,22 @@
+{
+  "name": "inno-docs",
+  "version": "0.0.1",
+  "description": "Technical documentation for @inno",
+  "main": ".",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "serve": "docsify serve ./docs"
+  },
+  "keywords": [
+    "docsify",
+    "docs",
+    "markdown"
+  ],
+  "author": "felix.koschmidder@kaiser-x.com",
+  "license": "ISC",
+  "dependencies": {
+    "docsify-cli": "^4.4.2"
+  }
+}
