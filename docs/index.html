@@ -14,12 +14,33 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
+      /* markdown: function(marked, renderer) {
+        console.log(this)
+        console.log(marked);
+        console.log(renderer);
+        console.log(marked.parse('# Marked in browser\n\nRendered by **marked**.'));
+
+        console.log(document.getElementsByTagName('pre'));
+
+        return marked
+      }, */
+      /* markdown: {
+        smartypants: true,
+        renderer: {
+          link: function() {
+            console.log(document.getElementsByTagName('pre')[0]);
+            marked.parse('# Marked in the browser\n\nRendered by **marked**.');
+          }
+        }
+      }, */
+      search: 'auto',
       loadSidebar: true,
       name: 'KXL Inno'
     }
   </script>
   <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4.13.0"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 
 </html>
